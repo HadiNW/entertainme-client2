@@ -1,0 +1,29 @@
+{
+  "name": "entertainmeclient",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.22",
+    "axios": "^0.18.0",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "native-base": "^2.8.1",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-gesture-handler": "^1.0.10",
+    "react-navigation": "^3.0.7"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "^5",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
